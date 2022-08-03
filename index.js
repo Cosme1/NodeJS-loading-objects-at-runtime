@@ -13,15 +13,3 @@ wss.on('connection', function connection(ws){
 wss.on('listening', ()=> {
     console.log('server is listening on port 8080')
 })
-
-///
-
-// const http = require('http');
-
-// const requestListener = function (req, res) {
-//     res.writeHead(200);
-//     res.end('Test');
-// }
-
-// const server = http.createServer(requestListener);
-// server.listen(8080);
